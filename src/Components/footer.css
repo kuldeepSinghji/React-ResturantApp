@@ -1,0 +1,115 @@
+.footer{
+    background-color: #070781;
+    /* border: 3px solid red; */
+}
+.sidebar{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #070781;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #070781;
+    color: white;
+}
+.sidebarItem span{
+    margin: 30px;
+}
+.sidebarTitle{
+    margin: 20px;
+    padding: 10px;
+    width: 80%;
+    border-top:1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    color:white;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    background-color: #070781;
+    font-size: 30px;
+}
+.sidebarImg{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.sidebar > img{
+    margin-top: 15px;
+}
+.sidebarItem > p{
+    padding: 30px;
+    background-color: #070781;
+    color: white;
+    font-size: 24px;
+}
+.sidebarSocial li{
+    display: inline;
+    margin: 0 3px;
+}
+.sidebarList{
+    font-size: 20px;
+    list-style: none;
+    margin-bottom:30px ;
+    background-color: #070781;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.sidebarListItem{
+    width: 40%;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #070781;
+    color: white;
+}
+.sidebarItem li:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+}
+.sidebarSocial{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #070781;
+    color: white;
+    width: 400px;
+    /* border: 1px solid red; */
+}
+.sidebarSocial li{
+    list-style:circle;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #070781;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+.sidebarSocial li:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+}
+.sidebarSocial li:active{
+    text-decoration: none;
+}
+@media screen and (max-width:640px) {
+    .sidebarList{
+        width: 350px;
+    }
+    .sidebarSocial{
+        width: 350px;
+    }
+}

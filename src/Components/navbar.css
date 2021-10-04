@@ -1,0 +1,51 @@
+.navbar{
+    height: 100%;     
+    background-color:gold ;        
+    z-index: 999;
+}
+.btnBox{
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    background-color: gold;
+}
+.btnBox button{
+    padding: 10px 15px;
+    border: none;
+    border-bottom:3px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    border-radius: 0px;
+    background-color: gold;
+    outline: none;
+}
+.btnBox button:first-child{
+    margin-top: 20px;
+}
+.btnBox button:hover{
+    border:2px solid black;
+    color: blue;
+    transition: all;
+    transition-duration: .4s;
+    border-radius: 8px;
+}
+.btnBox button:active{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width:640px) {
+    .btnBox button{
+        padding: 0 0;
+        width: 50px;
+        font-size: 11px;
+        border-bottom: 1px solid black;
+        width: 75px;
+    }
+}
